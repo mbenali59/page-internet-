@@ -1,0 +1,129 @@
+html {
+    background-image: url('image2.jpg'); /* Remplacez 'image2.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le fond */
+    background-position: center; /* Centre l'image sur le fond */
+    //*filter: blur(10px); /* Applique un flou de 10 pixels à l'image de fond */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white; /* Couleur du texte en blanc */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(51, 51, 51, 0.7); /* Couleur de fond du haut de page avec transparence */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold; /* Texte en gras */
+    margin: 0;
+}
+
+nav {
+    /* Ajoutez des styles pour la navigation si nécessaire */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px; /* Taille de police de 24 pixels */
+    font-weight: bold; /* Texte en gras */
+}
+
+.logo {
+    width: 100px; /* Largeur de votre logo */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+    margin-left: 20px; /* Espace entre le logo et le bord gauche */
+}
+
+footer {
+    text-align: center; /* Centrer le texte dans le pied de page */
+    background-color: rgba(51, 51, 51, 0.7); /* Couleur de fond du pied de page avec transparence */
+    color: white; /* Couleur du texte dans le pied de page */
+    padding: 10px 0; /* Espacement interne du pied de page */
+}
+
+/* Styles pour le menu déroulant */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Styles pour la barre de menu */
+.menu {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond de la barre de menu */
+    padding: 10px 0; /* Espacement intérieur de la barre de menu */
+}
+
+.menu ul {
+    list-style: none; /* Supprimez les puces de la liste */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Affichez les éléments de la liste horizontalement */
+    justify-content: center; /* Centrez les éléments horizontalement */
+}
+
+.menu li {
+    margin: 0 10px; /* Espacement entre les éléments du menu */
+}
+
+.menu a {
+    text-decoration: none; /* Supprimez la décoration du lien (soulignement par défaut) */
+    color: white; /* Couleur du texte des liens */
+    font-weight: bold; /* Texte en gras */
+    font-size: 18px; /* Taille de la police des liens */
+    transition: color 0.3s; /* Ajoutez une transition de couleur au survol du lien */
+}
+
+.menu a:hover {
+    color: #FFA500; /* Couleur du texte au survol */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex-grow: 1; /* Permet au contenu principal de s'étendre pour remplir l'espace restant */
+}
+
